@@ -55,11 +55,6 @@ public class CustomerService {
 
 	}
 
-//	public Customer updateCustomer(String id, Customer customer) {
-//		repository.count()
-//		return repository.;
-//	}
-
 	public Optional<Customer> getCustomerById(String id) {
 		return repository.findById(id);
 	}
