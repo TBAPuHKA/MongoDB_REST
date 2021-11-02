@@ -12,17 +12,6 @@ public class Customer {
 	private String name;
 	private String email;
 
-	public Customer(String name, String email) {
-		super();
-		this.name = name;
-		this.email = email;
-	}
-
-	public Customer() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
 	public String getId() {
 		return id;
 	}
@@ -45,11 +34,6 @@ public class Customer {
 
 	public void setEmail(String email) {
 		this.email = email;
-	}
-
-	@Override
-	public String toString() {
-		return String.format("Customer[firstName='%s', lastName='%s']", name, email);
 	}
 
 }

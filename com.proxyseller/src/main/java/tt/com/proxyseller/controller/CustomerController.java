@@ -40,7 +40,7 @@ public class CustomerController {
 	}
 
 	@RequestMapping(value = "/getcustomer", method = RequestMethod.GET)
-	public Optional<Customer> getCustomerById(@RequestParam String id) {
+	public Customer getCustomerById(@RequestParam String id) {
 		return service.getCustomerById(id);
 	}
 
